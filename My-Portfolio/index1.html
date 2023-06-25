@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="togglePanel('home')">Home</a></li>
+        <li><a href="#" onclick="togglePanel('contact')">Contact</a></li>
+        <li><a href="#" onclick="togglePanel('personal-info')">Personal Info</a></li>
+        <li><a href="#" onclick="togglePanel('projects')">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="panel active" id="home">
+    <h2>Home</h2>
+    <div class="profile-pic">
+     <img src="your-picture.jpg" alt="Your Picture" style="width: 200px; height: auto;">
+    </div>
+    <p>Welcome to my portfolio website. I am a hard worker who's always willing to learn.</p>
+  </div>
+
+  <div class="panel" id="contact">
+    <h2>Contact</h2>
+    <p>You can reach out to me through the following channels:</p>
+    <ul>
+      <li>Email: davidesteva36@gmail.com</li>
+      <li>Phone: 0995-826-9399</li>
+      <li>Social Media: <a href="https://www.instagram.com/davidtejares/">Instagram</a></li>
+    </ul>
+  </div>
+
+  <div class="panel" id="personal-info">
+    <h2>Personal Info</h2>
+    <ul>
+      <li>Name: David T. Esteva</li>
+      <li>Location: Alfonso, Philippines</li>
+      <li>Skills: HTML, CSS, JavaScript, etc.</li>
+    </ul>
+  </div>
+
+  <div class="panel" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>Android 3D Mapping for the City College of Tagaytay Senior Highschool New Building</h3>
+        <p> Link For Application: <a href="https://drive.google.com/drive/folders/1WeiK6pmArjpjvX7Du8Vc0mXXp6x0Rwe_?usp=drive_link">Drive</a></p>
+      </li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 David T. Esteva. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

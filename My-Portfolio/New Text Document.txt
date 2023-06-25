@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><button class="panel-btn" data-panel="home">Home</button></li>
+        <li><button class="panel-btn" data-panel="contact">Contact</button></li>
+        <li><button class="panel-btn" data-panel="personal-info">Personal Info</button></li>
+        <li><button class="panel-btn" data-panel="projects">Projects</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="panel" id="home-panel">
+    <div class="container">
+      <h2>Home</h2>
+      <p>Welcome to my portfolio website. I am a hard worker who's always willing to learn.</p>
+    </div>
+  </div>
+
+  <div class="panel" id="contact-panel">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: davidesteva36@gmail.com</p>
+      <p>Phone: 0995-826-9399</p>
+      <p>Social Media: <a href="https://www.instagram.com/davidtejares/">Instagram</a></p>
+    </div>
+  </div>
+
+  <div class="panel" id="personal-info-panel">
+    <div class="container">
+      <h2>Personal Info</h2>
+      <div class="personal-content">
+        <div class="profile-pic">
+          <img src="your-picture.jpg" alt="Your Picture">
+        </div>
+        <div class="personal-details">
+          <p>Name: David T. Esteva</p>
+          <p>Age: 2o</p>
+          <p>Location: Alfonso, Philippines</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" id="projects-panel">
+    <div class="container">
+      <h2>My Projects</h2>
+      <p>Here is the project I have worked on:</p>
+      <ul>
+        <li>Android 3D Mapping App for the City College of Tagaytay Senior Highschool New Building</li>
+        <li>Project Link: <a href="https://drive.google.com/file/d/1ZPcxo6tmkpJMhftq94jvPVz99KeYqTxd/view?usp=drive_link">Drive</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 David T. Esteva. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

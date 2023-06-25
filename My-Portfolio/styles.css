@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  color: #ffffff;
+}
+
+header {
+  background-color: #222222;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 1px;
+  background-color: #333333;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Orbitron', Arial, sans-serif;
+  font-size: 36px;
+  animation: fadeInDown 1s ease-in-out;
+  color: #00ff00;
+  text-shadow: 1px 1px 2px rgba(0, 255, 0, 0.3);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #66ff66;
+}
+
+section {
+  padding: 40px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 80%;
+  background-color: #333333;
+}
+
+section h2 {
+  margin-top: 0;
+  font-family: 'Orbitron', Arial, sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #66ff66;
+  text-shadow: 1px 1px 2px rgba(102, 255, 102, 0.3);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cccccc;
+}
+
+footer {
+  background-color: #222222;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Specific Styles */
+.panel {
+  display: none;
+  background-color: #333333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+  position: relative;
+}
+
+.panel::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 20px;
+  background-color: #00ff00;
+}
+
+.show-panel {
+  display: block;
+}
+
+.panel h2 {
+  color: #66ff66;
+  margin-bottom: 10px;
+}
+
+.panel p {
+  color: #cccccc;
+}
+
+.panel ul li {
+  color: #dddddd;
+}
+
+.button {
+  display: inline-block;
+  background-color: #00ff00;
+  color: #000000;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.button:hover {
+  background-color: #66ff66;
+}
